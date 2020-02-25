@@ -8,12 +8,12 @@ def initialize(word)
 end
 
 def match (possible_matches)
-  
+
   letters_list = @word.split("").sort
-  
+
 @possible_matches = possible_matches
 
-  @possible_matches.select { |words| 
+  @possible_matches.select { |words|
   words.split("").sort == letters_list}
   end
 
