@@ -1,8 +1,8 @@
 # Your code goes here!
 class Anagram
 attr_accessor :word
-def initlialize(test)
-word = test
+def initlialize(testey)
+word = testey
 end
 
 end
